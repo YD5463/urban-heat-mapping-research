@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+statsmodels
+pvlib
+metpy
+shap
+jupyter
+nbclient
