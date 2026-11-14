@@ -19,6 +19,8 @@ import numpy as np
 import pandas as pd
 import pvlib
 from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.preprocessing import StandardScaler
+from xgboost import XGBRegressor
 
 FEATURE_PATH = "../data/processed/ERA5_everyday_merged.csv"
 SENSOR_INFO_PATH = "../data/processed/sensor_info.csv"
@@ -79,17 +81,43 @@ XGB_PARAMS_NIGHT = dict(
     gamma=0.014, reg_alpha=0.002, reg_lambda=57,
 )
 
+# A cheap stand-in for the above, used for the many repeated fits in the
+# network-feature ablation and the sensor-count curve (notebooks 06, 09),
+# where sheer fit count matters more than squeezing out the last 0.01°C.
+XGB_PARAMS_FAST = dict(
+    objective="reg:squarederror", random_state=42, n_jobs=4, tree_method="hist",
+    n_estimators=200, max_depth=5, learning_rate=0.1,
+    subsample=0.8, colsample_bytree=0.8, min_child_weight=5,
+)
 
-def load_data() -> pd.DataFrame:
+
+def load_data(geo: bool = False) -> pd.DataFrame:
     """Load the hourly feature table, merge in sensor metadata, and add the
     derived columns every downstream notebook needs (zenith angle, strata,
-    anomaly targets)."""
+    anomaly targets).
+
+    `geo=True` additionally left-merges in the geo-feature pipeline's output
+    (notebook 10: topography/morphology/wind/shadow/roof features from
+    scripts/build_static_features.py), by Sensor_ID. Default is False and
+    that default path is unchanged from before this parameter existed -
+    notebooks 01-09 must keep reproducing exactly."""
     data = pd.read_csv(FEATURE_PATH)
     sensor_info = pd.read_csv(SENSOR_INFO_PATH)
     data = data.merge(
         sensor_info[["Sensor_ID", "Landcover_Type", "Shade_Type"]],
         on="Sensor_ID", how="left",
     )
+
+    if geo:
+        from city_config import DURHAM
+
+        # city_config paths are repo-root-relative; every notebook here runs
+        # with cwd=notebooks/ (matching FEATURE_PATH/SENSOR_INFO_PATH above).
+        geo_df = pd.read_parquet("../" + DURHAM.processed_geo_path).reset_index()
+        overlap = (set(geo_df.columns) & set(data.columns)) - {"Sensor_ID"}
+        if overlap:
+            raise ValueError(f"geo feature table has columns colliding with the existing table: {overlap}")
+        data = data.merge(geo_df, on="Sensor_ID", how="left")
 
     # Solar zenith angle, used as a feature (same approach as the authors':
     # convert local timestamps to UTC, then pvlib.solarposition at the
@@ -165,6 +193,39 @@ def F_to_C(F):
 
 def C_to_F(C):
     return np.asarray(C, dtype=float) * 9.0 / 5.0 + 32.0
+
+
+def fit_xgb(data: pd.DataFrame, target_col: str, X_names: list, hyperparams: dict,
+            train_ids, test_ids) -> dict:
+    """Fits one XGBRegressor on the rows whose Sensor_ID is in `train_ids`
+    and evaluates on `test_ids`. `test_ids` may be a single held-out sensor
+    (LOSO) or the full lockbox — the function itself is agnostic, the
+    leakage discipline is entirely in what the caller passes as train/test
+    ids. Scaler is fit on train rows only, as in the authors' code."""
+    train_mask = data["Sensor_ID"].isin(train_ids)
+    test_mask = data["Sensor_ID"].isin(test_ids)
+
+    X_train = data.loc[train_mask, X_names]
+    X_test = data.loc[test_mask, X_names]
+    y_train = data.loc[train_mask, target_col]
+    y_test = data.loc[test_mask, target_col]
+
+    scaler = StandardScaler()
+    X_train_norm = scaler.fit_transform(X_train.values)
+    X_test_norm = scaler.transform(X_test.values)
+
+    model = XGBRegressor(**hyperparams)
+    model.fit(X_train_norm, y_train)
+
+    return {
+        "model": model,
+        "scaler": scaler,
+        "y_train": y_train, "y_test": y_test,
+        "pred_train": model.predict(X_train_norm),
+        "pred_test": model.predict(X_test_norm),
+        "train_mask": train_mask, "test_mask": test_mask,
+        "X_names": X_names,
+    }
 
 
 def regression_metrics(y_true, y_pred) -> dict:

@@ -1,8 +1,11 @@
 pandas
 numpy
 scipy
-scikit-learn
-xgboost
+# Pinned: XGBoost RMSE shifts by a few percent between versions even with
+# identical code/data/random_state, which matters for the notebook 05-09
+# model comparisons.
+scikit-learn==1.9.1
+xgboost==3.2.0
 matplotlib
 seaborn
 statsmodels
@@ -11,3 +14,19 @@ metpy
 shap
 jupyter
 nbclient
+pyarrow
+# Geo-feature pipeline (notebook 10): topography/morphology/wind/shadow features.
+geopandas
+rasterio
+shapely
+affine
+numba
+requests
+Pillow
+# fetch_geo.py / fetch_validation.py: downloading+windowing remote geo sources.
+pyproj
+duckdb
+pystac-client
+planetary-computer
+osmnx
+py3dep

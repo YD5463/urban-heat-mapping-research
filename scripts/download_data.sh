@@ -36,8 +36,9 @@ cp "$TMP/extracted/UrbanSENSE_ML/4_Data/Raw_Data/README.txt" \
    data/raw/README.txt
 
 rm -rf reference/UrbanSENSE_ML
-mkdir -p reference/UrbanSENSE_ML
-rsync -a --exclude='4_Data' --exclude='ERA5_everyday_merged.csv' \
-  "$TMP/extracted/UrbanSENSE_ML/" reference/UrbanSENSE_ML/
+mkdir -p reference
+cp -r "$TMP/extracted/UrbanSENSE_ML" reference/UrbanSENSE_ML
+rm -rf reference/UrbanSENSE_ML/4_Data
+find reference/UrbanSENSE_ML -name "ERA5_everyday_merged.csv" -delete
 
 echo "Done."
