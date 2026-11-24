@@ -1,0 +1,795 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    34.8014037,
+    32.050803,
+    34.8494807,
+    32.0974378
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "m2ciueevi1",
+      "properties": {
+        "label": "m2ciueevi1",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "016",
+        "מזהה חיישן": "3728",
+        "קוד התחברות": "357f16",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/48dca275-2da1-45a2-b569-bd4203aab86a.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "806966",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-07-28T12:48:40.513Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8391284,
+          32.0676947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "j5cvlw0kvq",
+      "properties": {
+        "label": "j5cvlw0kvq",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "017",
+        "מזהה חיישן": "7322",
+        "קוד התחברות": "358118",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/544cefbc-50e4-42fa-80d4-7b0799c2b8d3.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "806945",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-07-28T13:02:06.957Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8393231,
+          32.0672054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6vegjiwq3e",
+      "properties": {
+        "label": "6vegjiwq3e",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "012",
+        "מזהה חיישן": "7413",
+        "קוד התחברות": "357117",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/9fb3681e-edd6-4fa8-b845-6cb196dc9465.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "1002742",
+        "הערות": "שביל ליד בתים",
+        "open_tickets": 0,
+        "updates_count": 2,
+        "last_update": "2026-07-28T11:39:57.431Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8348355,
+          32.069555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a0fa6kv1xn",
+      "properties": {
+        "label": "a0fa6kv1xn",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "011",
+        "מזהה חיישן": "93838",
+        "קוד התחברות": "356917",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/aa9c7bb9-1283-4acd-8bb8-bce7c4406b14.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "1002626",
+        "הערות": "עמוד תאורה עגול, עם סולם, יש דשא מסביב",
+        "open_tickets": 0,
+        "updates_count": 0,
+        "last_update": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8351139,
+          32.070224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "r3adx13ila",
+      "properties": {
+        "label": "r3adx13ila",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "008",
+        "מזהה חיישן": "6481",
+        "קוד התחברות": "357e16",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/ca080362-02b8-445c-99ce-f9986ae8ee67.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד חשמל",
+        "מספר עמוד": "2058",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 2,
+        "last_update": "2026-07-28T10:53:48.516Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8260946,
+          32.0751455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5fnxrvh0oq",
+      "properties": {
+        "label": "5fnxrvh0oq",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "003",
+        "מזהה חיישן": "17439",
+        "קוד התחברות": "358217",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/d2fab6f3-e467-48dc-8e59-6eaebb9e1a88.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "810967",
+        "הערות": "עמוד על הצומת עם דגלים ותמרור",
+        "open_tickets": 0,
+        "updates_count": 2,
+        "last_update": "2026-07-28T08:22:51.947Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8195888,
+          32.0925714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "o4ljypjtxj",
+      "properties": {
+        "label": "o4ljypjtxj",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "001",
+        "מזהה חיישן": "8072",
+        "קוד התחברות": "357a18",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/782c73e8-fb4c-438c-bd91-13585a7967cd.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "82162",
+        "הערות": "עמוד ללא עצים לידו",
+        "open_tickets": 0,
+        "updates_count": 2,
+        "last_update": "2026-07-28T08:03:24.733Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.822581,
+          32.0974378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pa9o8ku1a8",
+      "properties": {
+        "label": "pa9o8ku1a8",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "002",
+        "מזהה חיישן": "7223",
+        "קוד התחברות": "356b17",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/f87bfa60-7ead-4627-9574-bb33d9dd2d17.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "900222",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-07-28T08:38:54.527Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8112072,
+          32.0950495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9netcilwdv",
+      "properties": {
+        "label": "9netcilwdv",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "005",
+        "מזהה חיישן": "8536",
+        "קוד התחברות": "357118",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/dbc062a9-d12a-4f35-bd32-947f7bb4b178.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": null,
+        "מספר עמוד": null,
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 3,
+        "last_update": "2026-07-28T09:07:17.914Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8014037,
+          32.0854034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "xvuzqeufh1",
+      "properties": {
+        "label": "xvuzqeufh1",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "004",
+        "מזהה חיישן": "7694",
+        "קוד התחברות": "356f18",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/d4f882a5-edbb-477e-af1d-59960cafa391.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": null,
+        "מספר עמוד": null,
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 2,
+        "last_update": "2026-07-28T08:52:45.897Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.801519,
+          32.0855985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ce9ajxjrzc",
+      "properties": {
+        "label": "ce9ajxjrzc",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "006",
+        "מזהה חיישן": "6465",
+        "קוד התחברות": "357d16",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/1122726a-1e3e-4509-b65c-6229db62ee9a.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "811129",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 2,
+        "last_update": "2026-07-28T09:38:13.154Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8061712,
+          32.0823475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "neh6iv1did",
+      "properties": {
+        "label": "neh6iv1did",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "007",
+        "מזהה חיישן": "17371",
+        "קוד התחברות": "357b18",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/5b7a6e4d-cc4e-49aa-883d-0cd7fe8074d5.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "81113",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 2,
+        "last_update": "2026-07-28T09:47:21.543Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.806712,
+          32.0821176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6cycaxxcx2",
+      "properties": {
+        "label": "6cycaxxcx2",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "015",
+        "מזהה חיישן": "90867",
+        "קוד התחברות": "357710",
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/efb52b26-6afb-487e-8a35-0478e82e1f11.png",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "806968",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-07-28T12:42:18.186Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8391197,
+          32.0677033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ng7h9mpota",
+      "properties": {
+        "label": "ng7h9mpota",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "014",
+        "מזהה חיישן": "18072",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/6852457e-e580-4c44-b044-7857f0e7a2a3.png",
+        "סוג חיישן": null,
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "811945",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 0,
+        "last_update": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8379319,
+          32.0669859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zmu5xjo7w0",
+      "properties": {
+        "label": "zmu5xjo7w0",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "025",
+        "מזהה חיישן": "5672",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/d79e39d2-5c9a-4ed9-9de7-c4fb353982cc.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "1006966",
+        "הערות": "עמוד תאורה בתוך עצים בחניה",
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T10:47:45.669Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8348263,
+          32.0639278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmx43r1h2s",
+      "properties": {
+        "label": "pmx43r1h2s",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "009",
+        "מזהה חיישן": "4828",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/d1830394-9eed-4e88-97df-6f942d1875f0.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "61",
+        "הערות": "עמוד עקום בין עצים",
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T08:21:07.493Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8377232,
+          32.0698225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9dvj8hg74s",
+      "properties": {
+        "label": "9dvj8hg74s",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "010",
+        "מזהה חיישן": "7967",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/d4685469-3cf2-45a0-9588-858a7ba7e0fc.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": null,
+        "הערות": "עמוד בתוך הפארק",
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T08:19:15.530Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8364904,
+          32.0698301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "y3ahak8rs1",
+      "properties": {
+        "label": "y3ahak8rs1",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "018",
+        "מזהה חיישן": "7694",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/e7733503-64d6-4af0-ba0b-b73624a3c0be.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד חשמל",
+        "מספר עמוד": "822430",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T08:39:45.050Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8383579,
+          32.0697792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "uni6xfht4n",
+      "properties": {
+        "label": "uni6xfht4n",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "019",
+        "מזהה חיישן": "7140",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/460abb9a-3d20-47b7-8718-9f0b9871d3d3.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "1002688",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T09:08:47.793Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8355985,
+          32.0681115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "0m8a0m9sd5",
+      "properties": {
+        "label": "0m8a0m9sd5",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "020",
+        "מזהה חיישן": "7413",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/fecb183b-25da-4955-80c5-83f01c61eb09.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "822388",
+        "הערות": "ליד ספסל בפארק, אזור נעים מאוד",
+        "open_tickets": 0,
+        "updates_count": 0,
+        "last_update": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.835978,
+          32.0676855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6qccq5ho8y",
+      "properties": {
+        "label": "6qccq5ho8y",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "021",
+        "מזהה חיישן": "7223",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/21c7d7d4-cb88-4c4f-9ff7-fbdd0638aa8e.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "822388",
+        "הערות": "ליד ברזיה ומתקני ילדים, חם",
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T09:26:39.181Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8360782,
+          32.0676169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b2o38noehh",
+      "properties": {
+        "label": "b2o38noehh",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "022",
+        "מזהה חיישן": "6481",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/a9fac1cb-33b4-4089-82a9-95809ab57b8e.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "13",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T09:56:44.112Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8348379,
+          32.0663603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd45iwjulp",
+      "properties": {
+        "label": "bd45iwjulp",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "023",
+        "מזהה חיישן": "7983",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/fa2711b5-ab64-48a0-978a-1ac3c131db87.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "25",
+        "הערות": "קרוב לבית",
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T10:03:40.131Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8373668,
+          32.0660382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "61zkyeyvn0",
+      "properties": {
+        "label": "61zkyeyvn0",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "024",
+        "מזהה חיישן": "7017",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/e4b23edc-5a94-4837-95ea-123e2f57d9e5.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "1006957",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T10:22:43.367Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8331788,
+          32.0637912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4xvo56z5sj",
+      "properties": {
+        "label": "4xvo56z5sj",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "026",
+        "מזהה חיישן": "7439",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/2aa2a301-aae6-4d52-9af4-7677635558f5.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "823355",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T10:52:32.766Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8344569,
+          32.0637347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zm68rtg2cw",
+      "properties": {
+        "label": "zm68rtg2cw",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "027",
+        "מזהה חיישן": "5222",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/b8e01914-2bb8-4e99-9250-1559f3cf3b71.jpg",
+        "סוג חיישן": "טמפרטורה ולחות",
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "829000",
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 1,
+        "last_update": "2026-08-17T12:43:40.607Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8494807,
+          32.0524064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yikemw54l7",
+      "properties": {
+        "label": "yikemw54l7",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "029",
+        "מזהה חיישן": "6092",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/47b816a9-a025-4b9e-963a-1df2011c859b.jpg",
+        "סוג חיישן": null,
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": "1000588",
+        "הערות": "ללא סוכה",
+        "open_tickets": 1,
+        "updates_count": 1,
+        "last_update": "2026-08-17T13:04:40.411Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8469298,
+          32.0569725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "v0w8zohose",
+      "properties": {
+        "label": "v0w8zohose",
+        "flow": "חיישן טמפרטורה ולחות",
+        "site": "רמת גן",
+        "address": null,
+        "מספר סידורי": "030",
+        "מזהה חיישן": "7801",
+        "קוד התחברות": null,
+        "תמונה": "https://wetag-app-data-prod-917547345068.s3.eu-central-1.amazonaws.com/32/7b626ad5-f149-4c5e-bce1-b0448a5b5c48.jpg",
+        "סוג חיישן": null,
+        "מקום התקנה": "עמוד תאורה",
+        "מספר עמוד": null,
+        "הערות": null,
+        "open_tickets": 0,
+        "updates_count": 0,
+        "last_update": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8220805,
+          32.050803
+        ]
+      }
+    }
+  ]
+}

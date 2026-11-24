@@ -23,6 +23,9 @@ affine
 numba
 requests
 Pillow
+# Orthophoto/satellite basemaps + reverse-geocoding under sensor-location plots (notebook 11).
+contextily
+geopy
 # fetch_geo.py / fetch_validation.py: downloading+windowing remote geo sources.
 pyproj
 duckdb

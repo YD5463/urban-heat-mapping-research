@@ -325,6 +325,37 @@ $\pm22\%$ across tested $N$), meaning internal cross-validation at small
 $N$ should not be trusted at face value when planning a small pilot
 network.
 
+\subsection*{A larger-scale check: Seoul's S-DoT network}
+
+As an exploratory check on whether a bigger network resolves the open
+question above, we re-ran the same style of N-curve on Seoul's S-DoT
+sensor network (843 stations with both a reading and a location match,
+August 2020, ERA5 via Microsoft Planetary Computer). This used a reduced
+baseline (ERA5 temperature + hour-of-day only, not Durham's full
+static-feature B1) and administrative district in place of
+land-cover/shade strata, so absolute RMSE values are not directly
+comparable to Durham's --- but the qualitative result is clear:
+\textbf{RMSE is still falling at $N=531$} (90\% of the 590-sensor
+development pool, over $18\times$ Durham's usable ceiling of 29), with no
+visible flattening; $N^*$ is again undetermined ($N^*>531$). A layout
+comparison with Ramat Gan's own 28-sensor network (Figure~\ref{fig:seoulrg})
+adds a nuance: Ramat Gan's raw density ($\approx1.75$ sensors/km$^2$) is
+not lower than Seoul's ($\approx1.39$/km$^2$) --- the gap is in spatial
+\emph{evenness} (Ramat Gan's sensors cluster in one area), echoing the
+coverage-over-count finding from the stress tests above.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/seoul_vs_ramatgan_layout.png}
+  \caption{Sensor layout: Seoul's 843-station S-DoT network (left) vs.\
+  Ramat Gan's 28-sensor wetag network (right), both on a real street/
+  boundary basemap. Seoul's streets are omitted (a public Overpass-API
+  query-size limit for a city this large, not a data issue). Ramat Gan's
+  sensors visibly cluster in one area rather than spreading evenly across
+  the city, unlike Seoul's.}
+  \label{fig:seoulrg}
+\end{figure}
+
 \section{Implications for a New Deployment (e.g.\ Ramat Gan)}
 
 \begin{itemize}
@@ -347,6 +378,37 @@ network.
   network, not fewer, and should not treat a small pilot's internal
   cross-validation score at face value.
 \end{itemize}
+
+\subsection*{A Considered-and-Rejected Option: Netatmo Crowd-Sourced
+Densification}
+
+Given Ramat Gan's sparse and spatially uneven sensor network --- 26 usable
+sensors concentrated in one $\sim$700\,m cluster, with the rest of the city
+only thinly covered --- we evaluated whether Netatmo citizen weather
+stations, cleaned via CrowdQC+ (Fenner et al., 2021), could densify
+coverage cheaply before any new official sensors are deployed. Querying
+Netatmo's public station API (\texttt{/getpublicdata}) over Ramat Gan's
+own municipal area found only 4 public stations, \textbf{none of which
+actually fall within the city's municipal boundary} (Figure~\ref{fig:netatmo}) ---
+all 4 sit just across the western border, in Tel Aviv-Yafo and Givatayim.
+Widening the search to the surrounding municipalities found 13 stations in
+total, still none inside the three specific coverage gaps identified above
+(Tel HaShomer, Ramat Shikma, Ramat Yitzhak) nor near the existing dense
+cluster. None of the available stations carry a wind module either, so
+this source could not have supplied the wind-direction data the city's own
+sea-breeze hypothesis requires. We therefore did not pursue
+Netatmo/CrowdQC+ integration further for this deployment.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{figures/netatmo_check_ramat_gan.png}
+  \caption{The 4 Netatmo public stations found near Ramat Gan (red stars)
+  against the city's own municipal boundary (yellow), its 26 usable sensors
+  (blue), and its three known coverage gaps (orange circles). All 4
+  stations fall outside the city, nowhere near the gaps they would need to
+  fill.}
+  \label{fig:netatmo}
+\end{figure}
 
 \section{Extending to Geo-Morphological Features: A Negative Result}
 \label{sec:geo}
